@@ -20,3 +20,12 @@ while true:
 
 ## Plotting statistic
 `statistic.py` gets data from Firebase DB snapshot file and creates plots for each participant with dynamic of rating change.
+
+## Running a jar
+To run a server application, compiled to jar file, following command can be used:
+
+```{bash}
+java -jar <name>.jar > output.log 2>&1 &
+```
+
+It will run a background process and redirect all output to `output.log` file.
